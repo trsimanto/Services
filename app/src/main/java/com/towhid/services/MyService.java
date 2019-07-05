@@ -33,7 +33,7 @@ public class MyService extends Service {
     @Override
     public void onDestroy() {
         Toast.makeText(this, "Services stop ", Toast.LENGTH_SHORT).show();
-        //super.onDestroy();
+        super.onDestroy();
     }
 
 }
